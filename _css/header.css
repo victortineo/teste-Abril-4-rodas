@@ -1,0 +1,210 @@
+/*
+Theme Name: Teste Abril
+Theme URI: 
+Author: Victor Tineo
+Author URI: ;
+Description: Meu tema
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Victor Tineo
+*/
+
+header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	color: #fff;
+}
+header a {
+	color: #fff;
+}
+.lupa, .sanduiche, .fecharPesquisa {
+	display: none;
+	cursor: pointer;
+}
+.lupa {
+	background-image: url('../_imagens/lupa-branca.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+#sanduiche-menu-fechado {
+	background-image: url('../_imagens/menu-sanduiche.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+.sem-click .lupa, .clicada .lupa {
+	background-image: url('../_imagens/lupa.png');
+	display: inline-block;
+	position: absolute;
+	right: 55px;
+	top: 30px;
+}
+.menu_principal {
+	width: 100%;
+	display: flex;
+	background-color: #ed1c24;
+	padding: 20px 40px;
+	box-sizing: border-box;
+}
+.menu_principal ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: 100%
+}
+.menu_principal ul li{
+	align-self: center;
+	margin-right: 0.3%;
+}
+.menu_principal ul li a{
+	cursor: pointer;
+	}
+.seta-baixo {
+    width:0;
+    height:0;
+    border: 5px solid transparent;
+    display:inline-block;
+	border-top-color: #fff;
+}
+.seta-direita {
+    width:0;
+    height:0;
+    border: 5px solid transparent;
+    display:inline-block;
+	border-left-color: #fff;
+	float: 	right;
+}
+.menu_secundario {
+	width: 100%;
+	display: flex;
+	background-color: #242424;
+	padding: 0 40px 0 0;
+	box-sizing: border-box;
+}
+.menu_secundario ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%
+}
+.menu_secundario ul li {
+    align-self: center;
+}
+.menu_secundario ul li a {
+	cursor: pointer;
+	}
+.mais-acessado {
+	width: 65%;
+	position: relative;
+	left: 0;
+}
+.img-area {
+	width: 25%;
+	position: relative;
+	left: 0;
+}
+.pesquisar-responsivo {
+	display: none;
+}
+#box-item-placeholder,  #item-testes{
+	z-index: 2000;
+	transition: height .5s;
+	overflow: none;
+}
+ul.clicada {
+	display: none;
+}
+#lista-carros, #testes{
+	width: 100%;
+	display: none;
+	justify-content: space-between;
+	background-color: #242424;
+	margin-top: 15px;
+	border-bottom: 1px solid #ed1c24;
+}
+#lista-carros div {
+	display: inline-flex;
+	flex-direction: column;
+}
+#lista-carros div:last-child li {
+	margin-right: 100px;
+}
+#lista-carros div:nth-child(2) {
+	margin-left: -150px;
+}
+#lista-carros button {
+	margin-left: 10px;
+	margin-right: 10%;
+	margin: 20px 10px 0 10%;
+	overflow: hidden;
+	border: none;
+	background-color: #474747;
+	color: #fff;
+	padding: 10px;
+	font-weight: bold;
+}
+.carros {
+	padding: 10px 10px;
+}
+#item-testes{
+	margin-top: 15px;
+	display: none;
+}
+#lista-testes{
+	background-color: #474747;
+}
+#lista-testes div:first-child{
+	display: inline-block;	
+	padding: 15px 0px 15px 10px;
+	background-color: #474747;
+}
+#lista-testes div:first-child li {
+	padding: 7px;
+}
+#lista-testes div:first-child li:hover {
+	background-color: #242424;
+}
+#lista-testes div:last-child{
+	display: inline-block;
+	width: 82%;	
+	background-color: #242424;
+	padding: 23px 10px;
+}
+.teste {
+	width: 19%;
+	display: inline-block;
+}
+input[type=text]{
+	padding: 10px;
+}
+
+.sociais {
+	display: none;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+.sociais-item {
+	margin-right: 10px !important;
+}
+.instagram {
+	background-image: url('../_imagens/instagram.png');
+}
+.facebook {
+	background-image: url('../_imagens/facebook.png');
+}
+.twitter {
+	background-image: url('../_imagens/twitter.png');
+}
+.abril {
+	background-image: url('../_imagens/abril.png');
+}
+.clicada li a, .sem-click li a {
+	padding: 0px 5px;
+}

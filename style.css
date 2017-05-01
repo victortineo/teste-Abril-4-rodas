@@ -1,0 +1,15 @@
+/*
+Theme Name: Teste Abril
+Theme URI: 
+Author: Victor Tineo
+Author URI: ;
+Description: Meu tema
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Victor Tineo
+*/
+
+@import '_css/reset.css';
+@import '_css/header.css';
+@import '_css/noticias.css';
+@import '_css/responsivo.css';
